@@ -1,0 +1,20 @@
+Need to find two values:
+ - Oxygen Generator Rating (OGR)
+ - CO2 Scrubber Rating (CSR)
+
+
+--- SEARCH THE VALUE USING THE BIT CRITERIA ---
+ - From the Input consider only the first bit:
+    - If they do not match the bit criteria associated to the value that you are searching discard it.
+    - If you have only one number you have found the value.
+        - If not repeat with the next bit to the right until one value remains.
+
+--- OGR BIT CRITERIA ---
+ - Determine the most common value in the curret bit position.
+ - Keep only the numbers who have that bit in their position.
+ - If 1 and 0 are equally common discard the 0's.
+
+ --- CSR BIT CRITERIA ---
+ - Determine the least common value in the curret bit position.
+ - Keep only the numbers who have that bit in their position.
+ - If 1 and 0 are equally common discard the 1's.
